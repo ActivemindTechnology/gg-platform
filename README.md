@@ -17,6 +17,10 @@ The project will be used to develop the new platform infrastructure and applicat
 │   ├── production  
 │   └── staging  
 ├── docs  
+|   ├── design  
+|   ├── developer  
+|   ├── development 
+|   ├── images 
 ├── infrastructure  
 │   ├── base  
 │   ├── production  
@@ -28,7 +32,9 @@ The project will be used to develop the new platform infrastructure and applicat
     └── test  
 
 
-### Developer Setup
+### Project Status
+
+### GG System Services - Application & Others
 
 
 ### Tools and utilities
