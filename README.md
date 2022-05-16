@@ -1,6 +1,11 @@
 # GameGolf Platform v2
 The project will be used to develop the new platform infrastructure and application architectures.
 
+## GG Applications and Services
+
+
+## Architecture
+![GG Platform Application Services](/docs/images/readme/GameGolfApplicationArchitecture.png?raw=true)
 ### Directory Structure
 - Apps dir contains Helm releases with a custom configuration per cluster.
 - Infrastructure dir contains common infra tools such as NGINX ingress controller and Helm repository definitions.
