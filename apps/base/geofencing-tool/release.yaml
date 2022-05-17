@@ -1,0 +1,26 @@
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: geofencingtool
+  namespace: geofencingtool
+spec:
+  releaseName: geofencingtool
+  chart:
+    spec:
+      chart: geofencingtool
+      sourceRef:
+        kind: HelmRepository
+        name: geofencingtool
+        namespace: flux-system
+  interval: 5m
+  install:
+    remediation:
+      retries: 3
+  # Default values
+  # https://github.com/.../values.yaml
+  values:
+    cache: redis-master.redis:6379
+    ingress:
+      enabled: true
+      annotations:
+        kubernetes.io/ingress.class: nginx

@@ -24,13 +24,3 @@ spec:
       enabled: true
       annotations:
         kubernetes.io/ingress.class: nginx
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-T
