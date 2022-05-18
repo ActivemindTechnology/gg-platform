@@ -1,16 +1,16 @@
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
-  name: podinfo
-  namespace: podinfo
+  name: smartcaddie
+  namespace: smartcaddie
 spec:
-  releaseName: podinfo
+  releaseName: smartcaddie
   chart:
     spec:
-      chart: podinfo
+      chart: smartcaddie
       sourceRef:
         kind: HelmRepository
-        name: podinfo
+        name: smartcaddie
         namespace: flux-system
   interval: 5m
   install:
