@@ -6,7 +6,7 @@ on:
   push:
     branches: 
       - main  
-      - ' joe.mcknight_feature_base-gitops-setup'
+      - 'joe.mcknight_feature_base-gitops-setup'
   pull_request:
     branches: [ main ]
 
