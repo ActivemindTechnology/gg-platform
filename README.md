@@ -52,8 +52,7 @@ The project will be used to develop the new platform infrastructure and applicat
 
 ### Project Status
 # Project Status
-
-![devops-ci Actions Status](https://github.com/mcknight-joe/gg-platform/actions/workflows/devops-ci.yaml/badge.svg)
+[![devops-ci](https://github.com/ActivemindTechnology/gg-platform/actions/workflows/devops-ci.yaml/badge.svg?branch=joe.mcknight_feature_base-gitops-setup&event=status)](https://github.com/ActivemindTechnology/gg-platform/actions/workflows/devops-ci.yaml)
 
 [![GG Platform Stats](https://github-readme-stats.vercel.app/api?username=mcknight-joe&theme=dark)](https://github.com/ActivemindTechnology/gg-platform)
 
