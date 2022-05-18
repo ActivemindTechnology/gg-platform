@@ -50,11 +50,10 @@ The project will be used to develop the new platform infrastructure and applicat
         └── stage-prod  
 ```
 
-
 ### Project Status
 # Project Status
 
-![example workflow](https://github.com/mcknight-joe/gg-platform/actions/workflows/<WORKFLOW_FILE>/badge.svg)
+![devops-ci Actions Status](https://github.com/mcknight-joe/gg-platform/actions/workflows/devops-ci.yaml/badge.svg)
 
 [![GG Platform Stats](https://github-readme-stats.vercel.app/api?username=mcknight-joe&theme=dark)](https://github.com/ActivemindTechnology/gg-platform)
 
