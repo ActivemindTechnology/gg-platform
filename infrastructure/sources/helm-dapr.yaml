@@ -22,4 +22,4 @@ spec:
         name: dapr-operator
         namespace: flux-system
       version: 1.7
-  interval: 1d0h0m0s
+  interval: 5m
