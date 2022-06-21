@@ -8,7 +8,13 @@ The variants folder holds common characteristics between environments.
 
 ## development Cluster
 
+<<<<<<< HEAD
 The development cluster will not contain any real user data. Masked data may be used for testing. 
+=======
+The dev-test cluster will not contain any connections to real user data. Masked data may be used for testing. 
+>>>>>>> f386138fbdfae257fe2125c6f1d71ee124e93f2b
 
-## stage-prod Cluster 
-The stage-prod cluster will contain real user data. Staging will be a mirror of production. 
+## staging Cluster 
+
+
+## production Cluster 
