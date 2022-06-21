@@ -28,8 +28,8 @@ The project will be used to develop the new platform infrastructure and applicat
 │   │   ├── notification-workers  
 │   │   └── smart-caddie  
 │   │ 
-│   │── dev-test  
-│   ├── prduction  
+│   │── development  
+│   ├── production  
 │   └── staging    
 │         
 ├── docs  
@@ -40,18 +40,17 @@ The project will be used to develop the new platform infrastructure and applicat
 │   └── images 
 │
 ├── infrastructure  
+│   ├── base 
 │   │   ├── dapr  
-│   │   ├── nginx  
 │   │   ├── rabbitMQ  
-│   │   ├── starboard  
-│   │   └── smart-caddie  
+│   │   └── starboard  
 │   │ 
-│   │── dev-test  
-│   ├── prduction  
+│   │── development  
+│   ├── production  
 │   └── staging 
 │   
 └── cluster  
-    │── dev-test  
+    │── development  
     ├── production  
     └── staging 
 ```

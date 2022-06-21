@@ -6,9 +6,9 @@ The variants folder holds common characteristics between environments.
 
 ![Kubernetes Clusters](../docs/images/readme/k8scluster.png?raw=true)
 
-## dev-test Cluster
+## development Cluster
 
-The dev-test cluster will not contain any real user data. Masked data may be used for testing. 
+The development cluster will not contain any real user data. Masked data may be used for testing. 
 
 ## stage-prod Cluster 
 The stage-prod cluster will contain real user data. Staging will be a mirror of production. 
