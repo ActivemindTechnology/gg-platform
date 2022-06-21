@@ -10,7 +10,7 @@ The project will be used to develop the new platform infrastructure and applicat
 - [Game Processing Engine](/docs/development/GAMEPROCESSINGENGINE.md)
 
 ## Architecture
-![GG Platform Application Services](/docs/images/readme/GameGolfApplicationArchitecture.png?raw=true)
+![GG Platform Application Services](/docs/images/readme/game-golf-application-architecture.png?raw=true)
 ### Directory Structure
 - Apps dir contains Helm releases with a custom configuration per cluster.
 - Infrastructure dir contains common infra tools such as NGINX ingress controller and Helm repository definitions.
@@ -28,9 +28,10 @@ The project will be used to develop the new platform infrastructure and applicat
 │   │   ├── notification-workers  
 │   │   └── smart-caddie  
 │   │ 
-│   └── clusters  
-│       ├── dev-test  
-│       └── stage-prod  
+│   │── dev-test  
+│   ├── prduction  
+│   └── staging    
+│         
 ├── docs  
 │   ├── deployment  
 │   ├── design  
@@ -39,17 +40,20 @@ The project will be used to develop the new platform infrastructure and applicat
 │   └── images 
 │
 ├── infrastructure  
-│   ├── nginx  
-│   ├── postgres  
-│   ├── rabbitmq  
-│   ├── starboard  
-│   └── dapr
-│    
-└── clusters  
-    ├── base  
-    └── environments  
-        ├── dev-test  
-        └── stage-prod  
+│   │   ├── dapr  
+│   │   ├── nginx  
+│   │   ├── rabbitMQ  
+│   │   ├── starboard  
+│   │   └── smart-caddie  
+│   │ 
+│   │── dev-test  
+│   ├── prduction  
+│   └── staging 
+│   
+└── cluster  
+    │── dev-test  
+    ├── production  
+    └── staging 
 ```
 
 ### Project Status
