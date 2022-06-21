@@ -18,6 +18,8 @@ The project will be used to develop the new platform infrastructure and applicat
 - Docs for more in depth design and development documentation.
 
 ```
+├── .github
+│   └── workflows
 ├── apps  
 │   ├── base  
 │   │   ├── club-performance  
