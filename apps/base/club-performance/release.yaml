@@ -1,19 +1,21 @@
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: club-performance
-  namespace: gamegolf
-spec:
-  replicas: 1
-  selector:
-    matchLabels:
-      app: club-performance
-    template:
-      metadata: 
+apiVersion: apps/v1 
+kind: Deployment 
+metadata: 
+  name: club-performance 
+  namespace: gamegolf 
+spec: 
+  replicas: 1 
+  selector: 
+    matchLabels: 
+      app: club-performance 
+    template: 
+      metadata:  
         labels: 
-          app: club-performance
-        spec:
-          containers:
-          -name: club-performance
+          app: club-performance 
+        spec: 
+          containers: 
+          -name: club-performance 
           image: 829360019476.dkr.ecr.us-east-1.amazonaws.com/eks-dev:2022-07-01.14.02.23.c01770b6 
+          ports: 
+          - containerPort: 9002 
  
